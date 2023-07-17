@@ -1,0 +1,123 @@
+
+form{
+    margin-top:15px ;
+}
+
+.loginForm{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    width: 250px;
+    border: 5px solid rgb(146, 202, 199);
+    height: 300px;
+    background-color:  rgb(205, 239, 237) !important;
+    border-radius: 15px;
+}
+
+.loginForm input{
+    margin: 15px;
+    padding: 5px 3px;
+}
+
+.loginForm button{
+    margin: 10px 10px 10px 10px;
+
+}
+
+#signinbutton{
+    background-color: rgb(51, 214, 100);
+}
+
+#resetbutton{
+    background-color: rgb(252, 50, 50);
+}
+
+.loginForm a{
+    display: inline-block;
+    text-align: right;
+}
+
+#divofloginform{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 15px ;
+}
+
+/* ************************************************************************************************ */
+/* css of contentHome page */
+
+.HomePageData{
+   padding-top: 150px;
+   justify-content: left;
+   align-items: left;
+   padding-left: 10px;
+}
+
+/* ************************************************************************************************* */
+/* css of createaccount */
+
+.createForm{
+    display: flexbox;
+    width: 260px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: 5px solid rgb(146, 202, 199);
+    background-color:  rgb(205, 239, 237)
+}
+.createForm input{
+    margin: 10px 0px;
+    padding : 5px 4px;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192) ;
+}
+#submitcreate{
+    background-color: rgb(70, 231, 70);
+    border-color: rgb(8, 183, 8);
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#resetbutton{
+    padding-right: 10px;
+    background-color: rgb(251, 44, 44);
+    border-color: rgb(209, 13, 13);
+    border-radius: 10px;
+}
+
+
+.bi-x-square{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+/* ************************************************************************ */
+/* Content button css  */
+.ButtonContent{
+    display: flex;
+
+
+}
+
+.Contentbutton{
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    border-top-right-radius : 10px ;
+    border-bottom-left-radius : 10px ;
+    background-color: rgb(201, 255, 255);
+}
+
+
+
+.imgthumbnail{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 10px;
+}

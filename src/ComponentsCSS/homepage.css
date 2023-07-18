@@ -1,6 +1,7 @@
 
 form{
     margin-top:15px ;
+    
 }
 
 .loginForm{
@@ -54,6 +55,7 @@ form{
    justify-content: left;
    align-items: left;
    padding-left: 10px;
+   min-height: 80vh;
 }
 
 /* ************************************************************************************************* */
@@ -121,3 +123,4 @@ form{
     justify-content: left;
     padding-left: 10px;
 }
+

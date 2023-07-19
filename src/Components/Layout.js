@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderC from './Header'
 import FooterC from './Footer'
 import PropTypes from 'prop-types'
-import Login from '../Components/loginform'
+import Login from '../Components/Loginform'
 const Layout = (props) => {
   return (
     <div>

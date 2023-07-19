@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
 form{
     margin-top:15px ;
     
 }
+
 
 .loginForm{
 
@@ -10,40 +11,67 @@ form{
     align-items: center;
     
     justify-content: center;
-    width: 250px;
+    width: 550px;
     border: 5px solid rgb(146, 202, 199);
-    height: 300px;
+    height: 500px;
     background-color:  rgb(205, 239, 237) !important;
     border-radius: 15px;
 }
 
 .loginForm input{
-    margin: 15px;
+    margin: 25px;
+
+    width: 350px;
     padding: 5px 3px;
+    display: block;
 }
 
 .loginForm button{
     margin: 10px 10px 10px 10px;
-
+    
 }
 
 #signinbutton{
-    background-color: rgb(51, 214, 100);
+    background-color: rgb(0, 255, 76);
+    border-radius: 15px;
+    height: 60px;
+    font-size: large;
+    font-weight: 80;
+    width: 100px;
+    
 }
 
 #resetbutton{
-    background-color: rgb(252, 50, 50);
+    font-size: large;
+    font-weight: 80;
+    
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    height: 60px;
+    width: 100px;
+    position: center;
 }
 
 .loginForm a{
     display: inline-block;
     text-align: right;
+    display: block;
+}
+.loginForm h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.loginForm label{
+    font-size: large;
+    font-weight: bold;
+
 }
 
 #divofloginform{
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
     margin-right: 15px ;
 }
 
@@ -62,15 +90,30 @@ form{
 /* css of createaccount */
 
 .createForm{
-    display: flexbox;
-    width: 260px;
+    display: flex;
+    width: 560px;
     padding: 10px;
     border-radius: 15px;
     margin: 10px;
+    margin-right: 0px !important;
     border: 5px solid rgb(146, 202, 199);
-    background-color:  rgb(205, 239, 237)
+    background-color:  rgb(205, 239, 237);
+    height: 600px;
 }
+
+.loginFormheight{
+  height: 800px;
+  margin-bottom: 40px ;
+}
+
+.ElementCreate input{
+    display: block;
+    width: 200px;
+}
+
 .createForm input{
+    width: 50px !important;
+    display: inline-block;
     margin: 10px 0px;
     padding : 5px 4px;
     border-radius: 10px;
@@ -94,8 +137,8 @@ form{
 
 .bi-x-square{
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ************************************************************************ */
@@ -124,3 +167,70 @@ form{
     padding-left: 10px;
 }
 
+.contentHome{
+    min-height: 400px;
+    display: flex;
+    padding-top: 60px !important;
+}
+
+
+/* ********************Mainhome page content************************* */
+
+.mainMycoursecss{
+    min-height: 100vh;
+    padding-top: 130px;
+    
+}
+
+#Mainclassidcourse{
+    border: 5px solid rgb(120, 239, 255) ;
+}
+
+/* ****************** MainMycourse ************************** */
+
+.MainMycourse{
+    background-color: #e1ffff;
+}
+
+/* ******************** Profile Page Css ********************* */
+
+.profilePic{
+    border: 5px solid cyan;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* **********************  Dropdown css **************************** */
+
+.DropDownCss{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    background-color:  #e1ffff;
+    color: black;
+    font-family: 'Roboto Slab', serif !important; 
+    border: 5px solid #7affff;
+}
+
+.DropDownCss:hover {
+    background-color: rgb(255, 137, 206);
+    height: 70px;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.dropdownmenu{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 80px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.dropdownmenu2{
+    background-color: rgb(163, 255, 163);
+} 

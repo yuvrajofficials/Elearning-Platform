@@ -1,22 +1,36 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const buttonContent = () => {
+  const ButtonContent = () => {
+  const navigate = useNavigate();
+  const renderInstitute = () => { navigate('/institutelogin');  }
+  const renderPrimary = () => { navigate('/primary');  }
+  const renderJrcollege = () => { navigate('/jrcollege');  }
+  const renderCreativity = () => { navigate('/creativity');  }
+  const renderUgcourse = () => { navigate('/ugcourse');  }
+  const renderCoding = () => { navigate('/coding');  }
+  const renderKids = () => { navigate('/kids');  }
+ 
+
+
   return (
-    <div className='ButtonContent'>
+  <>
+  <div className='ButtonContent'>
        
-      <button className='Contentbutton'>Institutional Teaching Evironment</button>
-      <button className='Contentbutton'>Coding</button>
-      <button className='Contentbutton'>Kids Content</button>
+      <button className='Contentbutton' onClick={renderInstitute}  >Institutional Teaching Evironment</button>
+      <button className='Contentbutton' onClick={renderCoding} >Coding</button>
+      <button className='Contentbutton' onClick={renderKids} >Kids Content</button>
    
  
-      <button className='Contentbutton'>Class 1-10</button>
-      <button className='Contentbutton'>Class 11-12 & Competitive Exams</button>
-      <button className='Contentbutton'>Government Exams</button>
-      <button className='Contentbutton'>UG,PG & Competitive Exam</button>
-      <button className='Contentbutton'>Creativity & Art</button>
- 
+      <button className='Contentbutton ' onClick={renderPrimary}  >Class 1-10</button>
+      <button className='Contentbutton' onClick={renderJrcollege}  >Class 11-12 & Competitive Exams</button>
+      <button className='Contentbutton' onClick={renderInstitute}  >Government Exams</button>
+      <button className='Contentbutton' onClick={renderUgcourse}  >UG,PG & Competitive Exam</button>
+      <button className='Contentbutton' onClick={renderCreativity}  >Creativity & Art</button>
+
   </div>
+  </>
   )
 }
 
-export default buttonContent
+export default ButtonContent

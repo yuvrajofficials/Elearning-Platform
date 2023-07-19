@@ -1,16 +1,13 @@
 import React from 'react'
+import myCoursecss from './../ComponentsCSS/homepage.css'
 
-const mycourses = () => {
+
+const Mycourses = () => {
   return (
-    <div>
-        <ol>
-      <li> Name 
-
-      </li>
-        </ol>
-
-    </div>
+    <>
+    
+    </>
   )
 }
 
-export default mycourses
+export default Mycourses

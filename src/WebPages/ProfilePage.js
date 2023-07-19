@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
+import ProfileLayout from '../Components/ProfileLayout'
 const ProfilePage = () => {
   return (
     <div>
             <Header/>
-      <h1>Welcome to profile</h1>
+      <ProfileLayout/>
       <Footer/>
     </div>
   )

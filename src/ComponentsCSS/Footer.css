@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(206, 251, 239);
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     border-top: 2px solid rgb(23, 241, 212) ;
@@ -21,4 +21,16 @@
     padding: 0px 25px 0px 25px;
     text-decoration: none;
 
+}
+
+#headingfooter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#parafooter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }

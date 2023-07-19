@@ -1,18 +1,110 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-import './App.css';
+import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom'
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import StudyMaterial from './WebPages/StudyMaterial';
+import MyCourse from './WebPages/MyCourse';
+import ProfilePage from './WebPages/ProfilePage';
+import KidsContent from '././Components/Kidscontent'
+import CodingContent from '././Components/CodingContent'
+import Creativity from '././Components/CreativityContent'
+import Homepage from './WebPages/Homepage';
+import Createaccount from './Components/Createaccount';
+import RegisterasTeacher from './WebPages/RegisterasTeacher';
+import Loginform from './Components/Loginform';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import Mainpage from './Components/mainpage'
+import InstuteTeaching from './Components/InstuteTeaching';
+import PgCourse from './Components/Primary';
+import UgCourse from './Components/UgCourse';
+import JrCollege from './Components/JrCollege';
+import Primary from './Components/Primary';
 
-function App() {
+const router = createBrowserRouter([
+
+  {
+    path: "/studymaterial",
+    element: <StudyMaterial/>,
+  },
+  {
+    path: "/login",
+    element: <Loginform/>,
+  },
+  {
+    path: "/mycourse",
+    element: <MyCourse/>,
+  },
+  {
+    path: "/profile",
+    element: <ProfilePage/>,
+  },
+  {
+    path: "/registerteacher",
+    element: <RegisterasTeacher/>,
+  },
+  {
+    path: "/",
+    element: <Homepage/>,
+  },
+  {
+    path: "/createaccount",
+    element: <Createaccount/>,
+  },
+  {
+    path: "/institutelogin",
+    element: <InstuteTeaching/>,
+  },
+  {
+    path: "/ugcourse",
+    element: <UgCourse/>,
+  },
+  {
+    path: "/jrcollege",
+    element: <JrCollege/>,
+  },
+  {
+    path: "/primary",
+    element: <Primary/>,
+  },
+  {
+    path: "/creativity",
+    element: <Creativity/>,
+  },
+  {
+    path: "/coding",
+    element: <CodingContent/>,
+  },
+  {
+    path: "/kids",
+    element: <KidsContent/>,
+  },
+]);
+
+
+
+
+const App = () => {
   return (
-    <div className="App">
-    <Header/>
-    <Mainpage/>
-     
-    <Footer/>
-    </div>
-  );
+   
+        <>
+  
+  
+  <RouterProvider router={router}/>
+  
+    
+  </>
+    
+  )
 }
 
-export default App;
+export default App
+
+
+
+

@@ -1,14 +1,20 @@
 import React from 'react'
 import ImageofContent from './../Images/Logo.png'
 import hompagecss from '../../src/ComponentsCSS/homepage.css'
+import Footercss from '../../src/ComponentsCSS/Footer.css'
 import Studynotes from "./../Components/studynotes"
-
+import Loginform from './Loginform'
+import ButtonContent from './ButtonContent'
 function ContentHome() {
   return (
-    <div>
-       <Studynotes/>
-      {/* <img src={ImageofContent} class="imgthumbnail" alt="..."></img> */}
-    </div>
+    <>
+       <div className='HomePageData' >
+
+     <img src={ImageofContent} className=' imgthumbnail' alt="..."></img>
+     <ButtonContent/>
+       </div>
+    
+    </>
   )
 }
 

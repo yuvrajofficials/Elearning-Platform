@@ -2,11 +2,14 @@
 *{
     font-family: 'Roboto Slab', serif;
 }
+
 .appheader{
     background-color: rgb(206, 251, 239) !important;
     position: fixed;
     width: 100%;
     border-bottom: 2px solid rgb(23, 241, 212) ;
+    margin-top: 10 !important;
+    z-index: 1000;
 
 }
 #logoimageheader{
@@ -28,4 +31,12 @@
 #searchbarheader{
 
     width: 350px;
+}
+
+
+.buttonLogin{
+    margin-right: 15px;
+    border-color: black ;
+    color: black;
+    background-color: rgb(24, 255, 255);
 }

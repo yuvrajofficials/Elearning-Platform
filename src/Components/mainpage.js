@@ -1,16 +1,20 @@
 import React from 'react'
-import Login from './loginform.js'
+import Login from './Loginform.js'
 import MainpageData from './ContentHome.js'
-import Createaccount from './createaccount.js'
-import ButtonContent from './buttonContent.js'
-function mainpage() {
+import Createaccount from './Createaccount.js'
+import ButtonContent from './ButtonContent.js'
+import hompagecss from '../../src/ComponentsCSS/homepage.css'
+import Studynotes from "./studynotes.js"
+import Studycss from '../../src/ComponentsCSS/studymaterial.css'
+
+function Mainpage() {
   return (
     <div className='HomePageData'>
-      <MainpageData/>
+      <Studynotes/>
     
       <ButtonContent/>
     </div>
   )
 }
 
-export default mainpage
+export default Mainpage

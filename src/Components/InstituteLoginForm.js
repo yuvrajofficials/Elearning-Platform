@@ -3,7 +3,8 @@ import hompagecss from '../../src/ComponentsCSS/homepage.css'
 import Footer from './Footer';
 import Header from './Header';
 import { Link } from 'react-router-dom';
-const Createaccount = () => {
+
+const InstituteLoginForm = () => {
   return (
     <>
 
@@ -13,20 +14,20 @@ const Createaccount = () => {
      <form className='loginForm loginFormheight'>
        <div>
    
-       <h3>Create Account</h3>
+       <h3>Login to Institute</h3>
        <label>Name :</label>
        <input type='text' placeholder='Name '></input>
        <label>Email :</label>
        <input type='email' placeholder='Email '></input>
        <label>Phone No. :</label>
        <input type='number' placeholder='Phone'></input>
-       <label>Create Password :</label>
-       <input type='password' placeholder=' Create Password '></input>
-       <label>Confirm Password :</label>
-       <input type='text' placeholder=' Confirm Password '></input>
+       <label>Student Id :</label>
+       <input type='text' placeholder=' Student Id '></input>
+       <label>Password :</label>
+       <input type='password' placeholder='  Password '></input>
        <button id='resetbutton'>Reset</button>
-       <button id='signinbutton'>Signin</button>
-       <Link to="/createaccount"> Forgot Password</Link>
+       <button id='signinbutton'>Sign in</button>
+       <Link to="/"> Forgot Password </Link>
        </div>
    
      </form>
@@ -37,4 +38,4 @@ const Createaccount = () => {
   )
 }
 
-export default Createaccount
+export default InstituteLoginForm

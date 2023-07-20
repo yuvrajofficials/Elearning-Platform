@@ -25,6 +25,8 @@ import PgCourse from './Components/Primary';
 import UgCourse from './Components/UgCourse';
 import JrCollege from './Components/JrCollege';
 import Primary from './Components/Primary';
+import Government from './Components/Government';
+import Videoplayer from './Components/videoplayer';
 
 const router = createBrowserRouter([
 
@@ -83,6 +85,14 @@ const router = createBrowserRouter([
   {
     path: "/kids",
     element: <KidsContent/>,
+  },
+  {
+    path: "/government",
+    element: <Government/>,
+  },
+  {
+    path: "/videoplayer",
+    element: <Videoplayer/>,
   },
 ]);
 

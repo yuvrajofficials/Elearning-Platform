@@ -40,3 +40,19 @@
     color: black;
     background-color: rgb(24, 255, 255);
 }
+
+
+
+
+@media  screen and (max-width : 480px) {
+    
+    .appheader{
+        background-color: rgb(206, 251, 239) !important;
+        position: fixed;
+        width: fit-content;
+        border-bottom: 2px solid rgb(23, 241, 212) ;
+        margin-top: 10 !important;
+        
+    
+    }
+}

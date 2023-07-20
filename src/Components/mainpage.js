@@ -10,7 +10,7 @@ import Studycss from '../../src/ComponentsCSS/studymaterial.css'
 function Mainpage() {
   return (
     <div className='HomePageData'>
-      <Studynotes/>
+      <Studynotes Heading="Study Material"/>
     
       <ButtonContent/>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import Studycss from '../../src/ComponentsCSS/studymaterial.css'
-const studynotes = () => {
+const studynotes = (props) => {
     return (
         <div>
-            <h2>Study Materials </h2>
+        <h2>{props.Heading} </h2>
             <div className='mainseachforNotes' >
                 <input type='text' id='searchboxstudy' placeholder="   Search" className='seachforNotes'/>
                 <button className='seachforNotes' id='studysearchbutton'><i class="bi bi-search"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

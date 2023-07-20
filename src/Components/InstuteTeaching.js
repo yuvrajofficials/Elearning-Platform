@@ -3,15 +3,13 @@ import myCoursecss from './../ComponentsCSS/homepage.css'
 import Header from './Header'
 import Footer from './Footer'
 import Maincontent from './Maincontent'
+import InstituteLoginForm from './InstituteLoginForm'
 
 const InstuteTeaching = () => {
   return (
     <>
-    <Header/>
-    <div className='mainMycoursecss'>
-    <Maincontent buttonText="Institute"/>
-    <Footer/>  
-    </div>
+    
+    <InstituteLoginForm/>
     </>
   )
 }

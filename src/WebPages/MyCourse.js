@@ -11,7 +11,7 @@ const MyCourse = () => {
   return (
     <div>
       <Header/>
-      <CourseList/>
+      <CourseList ContentName='Hello'/>
       <Footer/>
     </div>
   )

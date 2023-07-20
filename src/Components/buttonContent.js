@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom'
   const renderUgcourse = () => { navigate('/ugcourse');  }
   const renderCoding = () => { navigate('/coding');  }
   const renderKids = () => { navigate('/kids');  }
+  const renderGovernment = () => { navigate('/government');  }
  
 
 
@@ -24,7 +25,7 @@ import { useNavigate } from 'react-router-dom'
  
       <button className='Contentbutton ' onClick={renderPrimary}  >Class 1-10</button>
       <button className='Contentbutton' onClick={renderJrcollege}  >Class 11-12 & Competitive Exams</button>
-      <button className='Contentbutton' onClick={renderInstitute}  >Government Exams</button>
+      <button className='Contentbutton' onClick={renderGovernment}  >Government Exams</button>
       <button className='Contentbutton' onClick={renderUgcourse}  >UG,PG & Competitive Exam</button>
       <button className='Contentbutton' onClick={renderCreativity}  >Creativity & Art</button>
 

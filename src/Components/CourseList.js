@@ -1,17 +1,21 @@
 import React from 'react'
 import hompagecss from '../../src/ComponentsCSS/homepage.css'
+import DisplayList from './DisplayList'
 const CourseList = () => {
   return (
-    <div>
-      <div className='mainMycoursecss'>
-        <form className='row'>
-            <div className='cols-md-6'>
-                <h1>Hello</h1>
-            </div>
+    <>
+    <div className='mainMycoursecss'>
 
-        </form>
-      </div>
+
+    
+      
+      <DisplayList ContentName='Name of Content' renderElement='Web Development in 100 Days' RenderType='Course Name :' />
+      <DisplayList ContentName='Name of Content' />
+      <DisplayList ContentName='Name of Content' />
+      <DisplayList ContentName='Name of Content' />
     </div>
+      </>
+    
   )
 }
 

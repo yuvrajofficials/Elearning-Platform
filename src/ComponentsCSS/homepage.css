@@ -201,36 +201,54 @@ form{
     padding: 10px;
 }
 
+#personPhoto{
+    height:220px;
+    border: 5px solid rgb(156, 251, 251);
+    padding: 10px;
+    margin: 10px;
+}
+
 /* **********************  Dropdown css **************************** */
 
+
+
+
 .DropDownCss{
-    width: 100%;
+    width: 400px;
     padding: 10px;
     margin: 2px;
     background-color:  #e1ffff;
     color: black;
     font-family: 'Roboto Slab', serif !important; 
-    border: 5px solid #7affff;
+    border: 5px solid #092222;
+    
 }
 
 .DropDownCss:hover {
-    background-color: rgb(255, 137, 206);
-    height: 70px;
-    margin: 0px 20px 0px 20px;
+    background-color: rgb(164, 209, 237);
+  
     cursor: pointer;
     color: black;
 }
+.DropDownCss:visited{
+    background-color: unset;
+}
 
 .dropdownmenu{
-    display: flex;
-    justify-content: left;
-    align-items: left;
+  
+   
     padding-left: 80px;
     font-size: large;
     font-weight: bold;
-
 }
 
 .dropdownmenu2{
-    background-color: rgb(163, 255, 163);
+    width: 50%;
+    background-color: rgb(178, 241, 246);
 } 
+
+/* ************************ kids *********************** */
+
+.videoplay{
+ width: 400px;
+}

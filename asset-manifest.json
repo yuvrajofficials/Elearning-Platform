@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Elearning-Platform/static/css/main.1b1d3f05.css",
-    "main.js": "/Elearning-Platform/static/js/main.09e55709.js",
+    "main.css": "/Elearning-Platform/static/css/main.78802fe2.css",
+    "main.js": "/Elearning-Platform/static/js/main.14e80698.js",
     "static/js/787.83c81fdf.chunk.js": "/Elearning-Platform/static/js/787.83c81fdf.chunk.js",
     "static/media/Logo.png": "/Elearning-Platform/static/media/Logo.0009a3a8495da58fdeb9.png",
     "index.html": "/Elearning-Platform/index.html",
     "static/media/person.svg": "/Elearning-Platform/static/media/person.b87141ee2ebc69697c380acaecf5f5e5.svg",
-    "main.1b1d3f05.css.map": "/Elearning-Platform/static/css/main.1b1d3f05.css.map",
-    "main.09e55709.js.map": "/Elearning-Platform/static/js/main.09e55709.js.map",
+    "main.78802fe2.css.map": "/Elearning-Platform/static/css/main.78802fe2.css.map",
+    "main.14e80698.js.map": "/Elearning-Platform/static/js/main.14e80698.js.map",
     "787.83c81fdf.chunk.js.map": "/Elearning-Platform/static/js/787.83c81fdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b1d3f05.css",
-    "static/js/main.09e55709.js"
+    "static/css/main.78802fe2.css",
+    "static/js/main.14e80698.js"
   ]
 }

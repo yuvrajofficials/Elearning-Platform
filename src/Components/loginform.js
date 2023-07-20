@@ -20,7 +20,7 @@ function Loginform() {
     <label>Login ID :</label>
     <input type='text' placeholder='UserName or Email'></input>
     <label>Password :</label>
-    <input type='text' placeholder=' Password '></input>
+    <input type='password' placeholder=' Password '></input>
     <button id='resetbutton'>Reset</button>
     <button id='signinbutton'>Signin</button>
     <Link to="/createaccount"> Create an account </Link>
